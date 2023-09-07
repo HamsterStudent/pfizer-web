@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css'/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:regular,italic,700,700italic" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,regular,500,700,900" rel="stylesheet" />
+    
+
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> -->
+    <script src="/js/index.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js'></script>
+    
+    <title>PFIZER</title>
+
+</head>
+<body>
+<!-- 바로가기메뉴 시작 -->
+    <ul id="skipmenu">
+        <li><a href="#">메뉴바로가기</a></li>
+        <li><a href="#">본문바로가기</a></li>
+        <li><a href="#">하단바로가기</a></li>
+    </ul>
+<!-- 바로가기메뉴 끝  -->
+
+<!-- 상단영역 시작 -->
+<header id="header_wrap">
+    <h1 id="logo"><a href="#"><img src="/images/logo_add.png" alt="화이자"></a></h1>
+    <!-- <h1 class="logo" id="logo_blue"><a href="#"><img src="/images/logo.png" alt="화이자"></a></h1> -->
+
+    <div id="top_menu_wrap"> <!-- 검색창 영역 -->
+        <nav id="top_menu">
+            <ul id="top_menu_list">
+                <li><a href="#">채용정보</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li>
+                    <select>
+                        <option><a href="#">Language</a></option>
+                        <option><a href="#">English</a></option>
+                        <option><a href="#">Japanese</a></option>
+                        <option><a href="#">Chinese</a></option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+          <p id="search_bar">
+            <input type="text" placeholder="검색어를 입력하세요">
+            <button><i class="fas fa-search"></i></button>
+            
+          </p>
+    </div> 
+
+    <nav id="menu_bar"> <!-- 좌측 햄버거 세로메뉴영역 -->
+        <h2 class="hidden">좌측메뉴</h2>
+
+            <div class="three col">
+            <a href="#;">
+                <div class="hamburger" id="hamburger-6">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+                </div>
+            </a>
+            </div>
+            <section id="main_menu_wrap"> 
+                <div id="left_menu_logo">
+                        <img src="/images/logo_white.png" alt="화이자로고">
+                  
+                    <ul id="logo_bottom_text_list">
+                        <li>ADDRESS
+                            <p class="logo_bottom_smalltext">서울특별시 중구 퇴계로 110<br>화이자타워 (우)04631</p>
+                        </li>
+                        <li>CONTACT
+                            <p class="logo_bottom_smalltext">02-317-2114<br>info@pfizer.co.kr</p>
+                        </li>
+                    </ul>
+        
+                </div>
+                <ul id="main_menu_list">
+                    <li><a href="#">회사소개</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">기업소개</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">비전 및 미션</a></li>
+                            <li><a href="#">핵심가치</a></li>
+                            <li><a href="#">윤리경영</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>    
+                    <li><a href="#">연구개발</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">화이자 글로벌 R&D</a>
+                                <ul class="sub_sub_menu_list">
+                                    <li><a href="#">개요</a></li>
+                                    <li><a href="#">화이자 R&D 연구소</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">한국화이자 R&D</a>
+                                <ul class="sub_sub_menu_list">
+                                    <li class="setting"><a href="#">개요</a></li>
+                                    <li><a href="#">뉴스레터</a></li>
+                                    <li><a href="#">연도별 활동</a></li>
+                                </ul>
+                            </li>   
+                        </ul>
+                    </li>
+                    <li><a href="#">제품정보</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">제품명별 분류</a></li>
+                            <li><a href="#">치료영역별 분류</a></li>
+                            <li><a href="#">안전 데이터 시트</a></li>
+                            <li><a href="#">의료 정보 연락처</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">사회공헌</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">화이자 조손가정 행복만들기</a></li>
+                            <li><a href="#">헬시 메이징 캠페인</a></li>
+                            <li><a href="#">R&D 유니버시티</a></li>
+                            <li><a href="#">환자 지원 활동</a></li>
+                            <li><a href="#">화이자 사랑의 장학금</a></li>
+                            <li><a href="#">의학 연구 지원</a></li>
+                            <li><a href="#">화이자 사랑의 병원 그림축제</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">화이자 소식</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">제품 관련 공지사항</a></li>
+                            <li><a href="#">프레스 센터</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">발간자료</a>
+                        <ul class="sub_menu_list">
+                            <li><a href="#">치료법 발견</a></li>
+                            <li><a href="#">제품 파이프 라인</a></li>
+                            <li><a href="#">임상 시험</a></li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+           
+            </section> 
+            
+        <ul id="menu_bar_text_list">
+            <li><a href="#">FOLLOW US &nbsp; &boxvh;</a></li>
+            <li><a href="https://www.pfizer.com/" title="미국화이자새창으로열기" target="_blank">Pfizer : United States</a></li>
+        </ul>
+    </nav>
+    
+
+</header>
+
+
+
+<!-- 컨텐츠영역 시작 -->
+<div class="visual_wrap" id="main_visual_bg">
+    
+    
+    
+        <!--메뉴 아이콘 클릭시 나오는 메인메뉴화면-->
+        
+      
+    
+        <nav id="right_scroll_menu"> <!--우측 스크롤 메뉴-->
+            <ul id="right_scroll_menu_list"> 
+              <li><a href="#">Pfizer Issue &#65517;<span></span></a></li>
+              <li><a href="#">COVID-19 &#65517;<span></span></a></li>
+              <li><a href="#">Science Will &#65517;<span></span></a></li>
+              <li><a href="#">제품정보 &#65517;<span></span></a></li>
+              <li><a href="#">소식 &#65517;<span></span></a></li>
+              <li><a href="#">▲ TOP &#65517;<span></span></a></li>
+            </ul>
+        </nav>
+        <div id="main_bottom_scroll_down"><!--하단 슬라이드 버튼-->
+            <a href="#">SCROLL DOWN 
+            <span><i class="fas fa-angle-down"></i></a></span>
+        </div>
+        
+    <!-- 상단영역 끝 -->
+
+    <div id="visual_bg_wrap">
+        <ul id="visual_bg_list">
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+
+
+    <!-- <div id="visual_bg_wrap"> -->
+
+        <!-- <div class="new_visual_bg_slide"></div> -->
+
+        <!-- <div class="visual_bg_slide"> </div>
+    </div> -->
+
+
+    <section class="visual_inner">
+        <h2 class="hidden">메인비주얼영역</h3>
+
+
+
+
+           <div id="visual_img_wrap">
+                <!-- <div class="new_visual_img_list"></div> -->               
+                    <ul id="main_visual_img_list">
+                        <li><img src="/images/mainvisual_00.jpg" alt="메인비주얼1"></li>
+                        <li><img src="/images/mainvisual_01.jpg" alt="메인비주얼1"></li>
+                        <li><img src="/images/mainvisual_02.jpg" alt="메인비주얼1"></li>
+                    </ul>
+            </div>
+
+
+
+
+            <!-- <ul id="main_visual_img_list">
+                <li><img src="/images/mainvisual_00.jpg" alt="메인비주얼1"></li>
+                <li><img src="/images/mainvisual_01.jpg" alt="메인비주얼1"></li>
+                <li><img src="/images/mainvisual_02.jpg" alt="메인비주얼1"></li>
+            </ul> -->
+
+            <ul id="main_visual_text_list">
+                <li>
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                        <p class="main_title">COVID-19</p>
+                        <p id="main_visual_sub_title">COVID-19 임상 실험 결과에 대한</br>자료를 화이자에서 공유합니다.</p>
+                        <p id="main_visual_plus_icon">&boxvh;</p>
+                </li>
+                <li>
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                        <p class="main_title">역사적인 '처음'</p>
+                        <p id="main_visual_sub_title">미국 FDA는 16세 이상의 COVID-19 발병 예방을 위해 COVID-19 백신을 승인했습니다.</p>
+                        <p id="main_visual_plus_icon">&boxvh;</p>
+                </li>
+                <li>
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                        <p class="main_title">희귀 질병 연구와 화이자</p>
+                        <p id="main_visual_sub_title">희귀 질환에 대한 이해에 있어<br>중요한 진전을 이루고 있습니다.</p>
+                        <p id="main_visual_plus_icon">&boxvh;</p>
+                </li>
+            </ul>
+
+
+
+
+
+        <!-- <ul id="main_visual_list">
+            <li>
+                <img src="/images/mainvisual_00.jpg" alt="메인비주얼1">
+                <p class="main_visual_bg" id="first_bg_color"></p>
+                <div class="main_visual_text"> 
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                    <p class="main_title">COVID-19</p>
+                    <p id="main_visual_sub_title">COVID-19 임상 실험 결과에 대한</br>자료를 화이자에서 공유합니다.</p>
+                    <p id="main_visual_plus_icon">&boxvh;</p>
+                </div>
+            </li>
+            <li>
+                <img src="/images/mainvisual_01.jpg" alt="메인비주얼2">
+                <p class="main_visual_bg" id="second_bg_color"></p>
+                <div class="main_visual_text"> 
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                    <p class="main_title">역사적인 '처음'</p>
+                    <p id="main_visual_sub_title">미국 FDA는 16세 이상의 COVID-19 발병 예방을 위해 COVID-19 백신을 승인했습니다.</p>
+                    <p id="main_visual_plus_icon">&boxvh;</p>
+                </div>
+            </li> 
+            <li>
+                <img src="/images/mainvisual_02.jpg" alt="메인비주얼3">
+                <p class="main_visual_bg" id="third_bg_color"></p>
+                <div class="main_visual_text"> 
+                    <h3 class="top_title" id="main_title_bar">화이자 소식</h2>
+                    <p class="main_title">희귀 질병 연구와 화이자</p>
+                    <p id="main_visual_sub_title">희귀 질환에 대한 이해에 있어<br>중요한 진전을 이루고 있습니다.</p>
+                    <p id="main_visual_plus_icon">&boxvh;</p>
+                </div>
+            </li>
+        </ul> -->
+       
+        <div id="main_slide_control_wrap"> <!-- 이전/멈춤/다음 버튼-->
+            <ul class="btn_wrap">
+                <li>&lsaquo;</li>
+                <li>&par;</li>
+                <!-- <li>&par;<span>&rtrif;</span></li> -->
+                <li>&rsaquo;</li>
+            </ul>
+            <p class="play_btn">&rtrif;</p>
+            <ul class="slide_number"> <!-- 슬라이드 번호 -->
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
+            </ul>
+            <p id="main_slide_bar">
+              <span></span>
+            </p>
+            <p id="main_slide_text">View NewsLetter</p>
+        </div>
+
+    </section>
+</div>
+
+
+
+
+
+<div class="visual_wrap">
+    <section class="visual_inner">
+      <h2 class="hidden">COVID컨텐츠 영역</h2>
+        <ul id="contents_covid_slide">
+            <li>
+                <img src="/images/covidvisual_01.jpg" alt="코비드비주얼1">
+                <div id="contents_covid_txt">
+                    <h3 class="top_title" id="covid_title_bar">2020 개발 현황</h2>
+                    <p class="main_title">COVID-19 </p>
+                    <p id="covid_sub_title">백신 연구개발 현황</p>
+                    <button id="covid_btn">COVID-19 자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+            <li>
+                <img src="/images/covidvisual_02.jpg" alt="코비드비주얼2">
+                <div id="contents_covid_txt">
+                    <h3 class="top_title" id="covid_title_bar">2020 개발 현황</h2>
+                    <p class="main_title">COVID-19 </p>
+                    <p id="covid_sub_title">백신 연구개발 현황</p>
+                    <button id="covid_btn">COVID-19 자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+            <li>
+                <img src="/images/covidvisual_03.jpg" alt="코비드비주얼3">
+                <div id="contents_covid_txt">
+                    <h3 class="top_title" id="covid_title_bar">2020 개발 현황</h2>
+                    <p class="main_title">COVID-19 </p>
+                    <p id="covid_sub_title">백신 연구개발 현황</p>
+                    <button id="covid_btn">COVID-19 자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+        </ul>
+
+        <!-- <div id="contents_covid_txt">
+            <h3 class="top_title" id="covid_title_bar">2020 개발 현황</h2>
+            <p class="main_title">COVID-19 </p>
+            <p id="covid_sub_title">백신 연구개발 현황</p>
+            <button id="covid_btn">COVID-19 자세히보기 &nbsp; &rarr;</button>
+        </div> -->
+        
+        <div id="contents_covid_control_wrap"> <!-- 이전/멈춤/다음 버튼 -->
+            <ul class="btn_wrap">
+                <li>&lsaquo;</li>
+                <li>&par;</li>
+                <li>&rsaquo;</li>
+            </ul>
+            <p class="play_btn play_btn_black">&rtrif;</p>
+            <ul class="slide_number"> <!-- 슬라이드 번호 -->
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<div class="visual_wrap" id="video_contents_bg">
+  <section class="visual_inner">
+    <h3 class="hidden">비디오영역</h3>
+        <div id="contents_video">
+            <!-- <embed width="1366" height="768" src="https://www.youtube.com/embed/nY7cLRM11ss?rel=0&controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed> -->
+            <img src="/images/video.png" alt="영상">
+
+           
+            
+        </div>
+
+        <!-- <p id="contents_02_play_bar"></p> 비디오 하단 재생바 -->
+  </section>
+</div>
+
+<div class="visual_wrap">
+  <section class="visual_inner">
+        <h2 class="contents_title" id="contents_product_title_bar">제품 정보</h2>
+
+        <ul id="product_info_list">
+            <li>
+                <img src="/images/product_img_00.jpg" alt="제품이미지1">
+                <div class="product_text"> 
+                    <p class="product_name">챔픽스</p>
+                    <p class="product_explain">금연치료제</p>
+                </div>
+                <div class="product_detail_info">
+                  <p class="product_name product_font_color">챔픽스</p>
+                  <p class="product_explain product_font_color">금연치료제</p>
+                  <p class="product_explain product_font_color">폐렴구균 씨알엠(CRM197)<br> 단백접합백신</p>
+                  <button class="more_product_btn img_btn_border">
+                      자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+            <li>
+                <img src="/images/product_img_01.jpg" alt="제품이미지2">
+                <div class="product_text">
+                    <p class="product_name">센트롬 포 우먼</p>
+                    <p class="product_explain">한국인에게 필요한 비타민</p>
+                </div>
+                <div class="product_detail_info">
+                  <p class="product_name product_font_color">센트롬 포 우먼</p>
+                  <p class="product_explain product_font_color">한국인에게 필요한 비타민</p>
+                  <p class="product_explain product_font_color">폐렴구균 씨알엠(CRM197)<br> 단백접합백신</p>
+                  <button class="more_product_btn img_btn_border">
+                    자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+            <li>
+                <img src="/images/product_img_02.jpg" alt="제품이미지3">
+                <div class="product_text">
+                    <p class="product_name">프리베나</p>
+                    <p class="product_explain">세계 1위 폐렴구균 백신</p>
+                </div>
+                <div class="product_detail_info">
+                  <p class="product_name product_font_color">프리베나</p>
+                  <p class="product_explain product_font_color">세계 1위 폐렴구균 백신</p>
+                  <p class="product_explain product_font_color">폐렴구균 씨알엠(CRM197)<br> 단백접합백신</p>
+                  <button class="more_product_btn img_btn_border">
+                    자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+            <li>
+                <img src="/images/product_img_03.jpg" alt="제품이미지4">
+                <div class="product_text">
+                    <p class="product_name">빈다맥스</p>
+                    <p class="product_explain">심근병증(ATTR-CM) 치료제</p>
+                </div>
+                <div class="product_detail_info">
+                  <p class="product_name product_font_color">빈다맥스</p>
+                  <p class="product_explain product_font_color">심근병증(ATTR-CM) 치료제</p>
+                  <p class="product_explain product_font_color">폐렴구균 씨알엠(CRM197)<br> 단백접합백신</p>
+                  <button class="more_product_btn img_btn_border">
+                    자세히보기 &nbsp; &rarr;</button>
+                </div>
+            </li>
+        </ul>
+        <!-- 제품이미지 하단 더보기 버튼 -->
+        <button class="more_product_btn">제품 더 보기 &nbsp; &rarr;</button> 
+  </section>
+</div>
+
+<div class="visual_wrap">
+  <section class="visual_inner">
+        <h2 class="contents_title" id="notice_title_bar">소식</h2>
+
+        <div id="notice_tabmenu_wrap">
+            <ul id="tabmenu_list">
+                <li><a href="#">제품관련 공지사항</a></li>
+                <li><a href="#">프레스 센터</a></li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+            
+            <ul id="panel_list">
+                <li>
+                    <ul id="sub_panel_list">
+                        <li><a href="#">
+                            <p class="notice_icon">제품</p>
+                            허가사항 변경명령(통일조정)에 따른 공고_자이복스정<span>2020.12.00</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">제품</p>
+                            허가사항 변경지시 (재심사)에 따른 공고_프리스틱정<span>2020.12.01</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">제품</p>
+                            허가사항 변경지시 (통일조정)에 따른 공고_화이자메토트렉세이트주<span>2020.12.02</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">제품</p>
+                            리피토엠서방정10/750mg, 20/750mg 자진회수의 건<span>2020.12.03</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">제품</p>
+                            허가사항 변경지시에 따른 공고_미뉴렛정, 에이리스정<span>2020.12.04</span>
+                          </a></li>
+                          <li><a href="#">
+                              <p class="notice_icon">제품</p>
+                              허가사항 변경지시에 따른 공고_화이자이리노테칸주<span>2020.12.05</span>
+                          </a>
+                          </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <ul id="sub_panel_list">
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                          한국화이자, ‘2020 조손가정 행복만들기 캠페인’ 전개<span>2020.12.00</span>
+                        </a></li>
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                          제18회 화이자의학상 수상자 발표<span>2020.12.01</span>
+                        </a></li>
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                          한국화이자업존, 보건복지부와 ‘독거노인사랑잇기사업’ MOU 체결<span>2020.12.02</span>
+                        </a></li>
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                          제 18회 ‘화이자의학상’ 수상 후보자 공모<span>2020.12.03</span>
+                        </a></li>
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                          한국화이자, ‘코로나-19’ 극복 위한 성금 1억원 기부<span>2020.12.04</span>
+                        </a></li>
+                        <li><a href="#">
+                            <p class="notice_icon">뉴스</p>
+                            한국화이자, ‘2020 화이자 사랑의 장학금’ 전달<span>2020.12.05</span>
+                        </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul id="sub_panel_list">
+                        <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                            Viatris 출범 및 '한국화이자업존(주) 기업/제품 관련 문의 안내<span>2020.12.00</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                            제 18회 화이자의학상 수상 후보자 공모 안내<span>2020.12.01</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                            한국화이자제약 컨슈머헬스케어사업부 양도에 따른 개인정보 이전 안내<span>2020.12.02</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                            한국화이자제약 컨슈머헬스케어사업부에 대한 안내<span>2020.12.03</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                            한국화이자제약의 추석 연휴 및 휴무 안내입니다.<span>2020.12.04</span>
+                          </a></li>
+                          <li><a href="#">
+                            <p class="notice_icon">공지</p>
+                              [제1회 PEH 디지털오픈이노베이션] 최종 결과 발표<span>2020.12.05</span>
+                          </a>
+                          </li>
+                        
+                    </ul>
+                </li>
+            </ul>
+            <p id="tabmenu_plus_icon"><a href="#">&boxvh;</a></p>
+        </div>
+        
+        <div id="notice_popup_wrap">
+            <p class="notice_sub_title" id="popup_title">팝업</p>
+                <ul id="popup_btn_wrap">
+                    <li><a href="#;">&lsaquo;</a></li>
+                    <li><a href="#;">&par;</a></li>
+                    <li><a href="#;">&rsaquo;</a></li>
+                </ul>
+                <p id="popup_play">&rtrif;</p>
+            <div id="popup_visual_wrap">
+                <ul id="popup_visual_list">
+                  <li><a href="#"><img src="/images/popup_img_00.jpg" alt="팝업이미지1"></a></li>
+                  <li><a href="#"><img src="/images/popup_img_01.jpg" alt="팝업이미지2"></a></li>
+                  <li><a href="#"><img src="/images/popup_img_02.jpg" alt="팝업이미지3"></a></li>
+                </ul>
+            </div>
+                <ul id="popup_slide_gather">
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                  <li><a href="#"></a></li>
+                </ul>
+            </p>    
+        </div>
+
+        <div id="notice_movie_wrap">
+            <p class="minor_title">영상</p>
+                <ul id="movie_list">
+                    <li><a href="#">
+                        <p class="movie_link">
+                          <embed width="1280" height="720" src="https://www.youtube.com/embed/GtSifYflU8E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </p>
+                        <p class="movie_news_title">To All The Participants...</p>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <p class="movie_link"><embed width="183" height="100" src="https://www.youtube.com/embed/5JaJTiLO5Z8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed></p>
+                        <p class="movie_news_title">집에서 즐기는 과학...</p>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <p class="movie_link">
+                            <embed width="183" height="100" src="https://www.youtube.com/embed/ZhCiTacccb8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></embed>
+                        </p>
+                        <p class="movie_news_title">유전공학에 대한...</p>
+                    </a>
+                    </li>
+                </ul>
+        </div>
+
+        <div id="notice_news_wrap">
+            <p class="minor_title">이슈</p>
+                <ul id="news_list">
+                    <li><a href="#">
+                        <p class="news_link"><img src="/images/news_img_00.jpg" alt="뉴스기사사진1"></p>
+                        <p class="movie_news_title">"미, 화이자 백신 추가.."</p>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <p class="news_link"><img src="/images/news_img_01.jpg" alt="뉴스기사사진2"></p>
+                        <p class="movie_news_title">[단독]화이자-얀센,1400..</p>
+                    </a>
+                    </li>
+                    <li><a href="#">
+                        <p class="news_link"><img src="/images/news_img_02.jpg" alt="뉴스기사사진3"></p>
+                        <p class="movie_news_title">"독일, 12.27부터 접종.."</p>
+                    </a>
+                    </li>
+                </ul>
+        </div>
+
+
+      </section>
+</div>
+
+<!-- 컨텐츠영역 끝 -->
+
+<footer id="footer_wrap">
+    <div id="footer_menu">
+      <ul id="footer_menu_list">
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">연구개발</a></li>
+          <li><a href="#">제품정보</a></li>
+          <li><a href="#">사회공헌</a></li>
+          <li><a href="#">화이자 소식</a></li>
+          <li><a href="#">발간자료</a></li>
+      </ul>
+    </div>
+    <div id="footer_inner">
+        <div id="footer_text">
+            <p class="footer_phone_address">02 - 317 - 2114 ｜<span>한국 화이자제약 ㈜ 대표번호</span></p>
+            <p class="footer_phone_address">서울특별시 중구 퇴계로 110 화이자타워 (우)04631 ｜ <span>오시는 길</span></p>
+            <p id="footer_copyright">© Pfizer Ltd. 2007-2015
+                All rights reserved.<br>
+                The products discussed herein may have different labeling in different countries<br>
+                This information - including product information - is intended only for residents of the Republic of Korea.
+            </p>
+        </div>
+        
+        <ul id="footer_sns_icon_list">
+            <li><a href="#"><i class="fab fa-google"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+
+        <ul id="footer_site_map">
+            <li><a href="#">사이트맵</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">개인정보보호법 교육 자료</a></li>
+            <li><a href="#">이용약관</a></li>
+        </ul>
+
+    </div>
+</footer>
+</body>
+</html>
