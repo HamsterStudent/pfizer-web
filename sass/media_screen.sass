@@ -1,0 +1,23 @@
+@import "./_mixin"
+
+@include mobile
+    .section_wrap
+        background-color: pink
+
+@include tablet
+    .section_wrap
+        background-color: plum
+
+@include desktop
+    .section_inner .main_slide_wrap
+        width: 85%
+    #visual_img_wrap
+        width: 65%
+    #main_visual_text_list
+        width: 29%
+    #main_slide_control_wrap
+        width: 29%
+
+@include widedesktop
+    #right_scroll_menu_list
+        display: none

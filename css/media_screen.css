@@ -1,0 +1,31 @@
+@media (min-width: 335px) and (max-width: 757px) {
+  .section_wrap {
+    background-color: pink;
+  }
+}
+@media (min-width: 758px) and (max-width: 1349px) {
+  .section_wrap {
+    background-color: plum;
+  }
+}
+@media (max-width: 1350px) {
+  .section_inner .main_slide_wrap {
+    width: 85%;
+  }
+  #visual_img_wrap {
+    width: 65%;
+  }
+  #main_visual_text_list {
+    width: 29%;
+  }
+  #main_slide_control_wrap {
+    width: 29%;
+  }
+}
+@media (max-width: 1460px) {
+  #right_scroll_menu_list {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=media_screen.css.map */

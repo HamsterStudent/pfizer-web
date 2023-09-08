@@ -33,7 +33,7 @@
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: 5;
+  z-index: 99999;
 }
 
 #logo {
@@ -52,7 +52,7 @@
   top: 0px;
 }
 
-div#top_menu_wrap {
+#top_menu_wrap {
   width: 470px;
   height: 38px;
   position: absolute;
@@ -251,7 +251,7 @@ section#main_menu_wrap {
   display: none;
 }
 
-div#left_menu_logo {
+#left_menu_logo {
   width: 21.8125%;
   height: 100%;
   float: left;
@@ -261,7 +261,7 @@ div#left_menu_logo {
   z-index: 9;
 }
 
-div#left_menu_logo > img {
+#left_menu_logo > img {
   width: 132px;
   height: 79px;
   margin: 0px auto;
@@ -373,6 +373,121 @@ ul.sub_sub_menu_list > li > a {
   color: white;
 }
 
+nav#right_scroll_menu {
+  width: 100px;
+  height: 135px;
+  position: absolute;
+  right: 0px;
+  top: 420px;
+  margin-right: 22px;
+  z-index: 4;
+}
+
+ul#right_scroll_menu_list {
+  position: fixed;
+  width: auto;
+  height: 135px;
+}
+
+ul#right_scroll_menu_list > li {
+  width: auto;
+  height: 15px;
+  margin-bottom: 8px;
+  text-align: right;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+ul#right_scroll_menu_list > li > a {
+  font: normal 12px "Noto Sans KR";
+  text-decoration: none;
+  color: white;
+  padding: 0px 2px;
+  box-sizing: border-box;
+}
+
+ul#right_scroll_menu_list > li > a.selected_white {
+  background: white;
+  color: black !important;
+}
+
+ul#right_scroll_menu_list > li > a.selected_black {
+  background: black;
+  color: white !important;
+}
+
+ul#right_scroll_menu_list > li > a.selected_white::before {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  background: white;
+  position: absolute;
+  right: -17px;
+  top: 5px;
+  content: "";
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -3px;
+  top: 6px;
+  z-index: -1;
+}
+
+ul#right_scroll_menu_list > li > a > span {
+  display: none;
+  width: 6px;
+  height: 6px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  right: -3px;
+  top: 6px;
+  z-index: -1;
+}
+
+@keyframes scroll_down_ani {
+  0% {
+    bottom: 12px;
+  }
+  30% {
+    bottom: 15px;
+  }
+  50% {
+    bottom: 17px;
+  }
+  70% {
+    bottom: 15px;
+  }
+  90% {
+    bottom: 12px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
+#main_bottom_scroll_down {
+  width: 115px;
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  left: 50%;
+  margin-left: -57.5px;
+  bottom: 10px;
+  z-index: 99999;
+  animation: scroll_down_ani 1.5s ease-out infinite;
+}
+
+#main_bottom_scroll_down > a {
+  font: normal 15px "Noto Sans KR";
+  color: white;
+  text-decoration: none;
+}
+
 footer#footer_wrap {
   width: 100%;
   height: 277px;
@@ -384,7 +499,7 @@ footer#footer_wrap {
   top: 0px;
 }
 
-div#footer_menu {
+#footer_menu {
   width: 100%;
   height: 94px;
   border-bottom: solid 1px black;
@@ -413,7 +528,7 @@ ul#footer_menu_list > li:last-child {
   margin-right: 0px;
 }
 
-div#footer_inner {
+#footer_inner {
   width: 1200px;
   margin: 0px auto;
   position: relative;
@@ -423,7 +538,7 @@ div#footer_inner {
   box-sizing: border-box;
 }
 
-div#footer_text {
+#footer_text {
   width: 590px;
   height: 150px;
   float: left;

@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function mainMenuEffect() {
   //햄버거메뉴오픈효과
-  const contents = document.querySelectorAll(".visual_wrap");
+  const contents = document.querySelectorAll(".section_wrap");
   const mainMenuWrap = document.querySelector("#main_menu_wrap");
 
   const mainMenuLi = document.querySelectorAll("#main_menu_list>li");
@@ -82,7 +82,7 @@ function scrollEffect() {
   //스크롤효과
   //alert('test')
   const mainMenuWrap = document.querySelector("#main_menu_wrap");
-  const contents = document.querySelectorAll(".visual_wrap");
+  const contents = document.querySelectorAll(".section_wrap");
 
   const scrollMenu = document.querySelector("#right_scroll_menu");
   const scrollMenuList = document.querySelector("#right_scroll_menu_list");
@@ -590,7 +590,7 @@ function mainVisualEffect() {
 }
 
 function covidContentsSlide() {
-  const covidContentsInner = document.querySelectorAll(".visual_inner");
+  const covidContentsInner = document.querySelectorAll(".section_inner");
   const covidContentsList = document.querySelector("#contents_covid_slide");
   const covidContentsLi = document.querySelectorAll("#contents_covid_slide>li");
   const btnList = document.querySelectorAll(
@@ -768,7 +768,7 @@ function noticeEffect() {
 
   const panelLi = document.querySelectorAll("#panel_list>li");
 
-  const popUpVisualWrap = document.querySelector("#popup_visual_wrap");
+  const popUpVisualWrap = document.querySelector("#popup_section_wrap");
   const popUpVisualList = document.querySelector("#popup_visual_list");
   const popUpVisualLi = document.querySelectorAll("#popup_visual_list>li");
   const dot = document.querySelectorAll("#popup_slide_gather>li");
