@@ -383,6 +383,19 @@
   color: white;
 }
 
+.covid_contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.covid_slide_wrap {
+  width: 1200px;
+  height: 577px;
+  z-index: 9999;
+  position: relative;
+}
+
 #contents_covid_slide {
   width: 300%;
   height: 100%;
@@ -402,14 +415,13 @@
   width: 833px;
   height: 577px;
   float: left;
-  margin-top: 12%;
 }
 
 #contents_covid_txt {
   width: 254px;
   float: left;
   margin-left: 99px;
-  margin-top: 23%;
+  margin-top: 10%;
 }
 
 #covid_title_bar {
@@ -477,14 +489,22 @@ h2.contents_title {
   margin: 0px auto;
   font: normal 20px "Noto Sans KR";
   text-align: center;
-  padding-bottom: 5px;
-  margin-bottom: 50px;
-  margin-top: 130px;
+  margin-bottom: 30px;
 }
 
 h2#contents_product_title_bar {
   width: 85px;
   border-bottom: solid 1px black;
+}
+
+.prod_contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod_info_wrap {
+  width: 1200px;
 }
 
 #product_info_list {
@@ -550,7 +570,7 @@ button.more_product_btn {
   left: 50%;
   margin-left: -90px;
   top: 0px;
-  margin-top: 84px;
+  margin-top: 45px;
   font: normal 16px/52px "Noto Sans KR";
   background: none;
   cursor: pointer;

@@ -3,11 +3,6 @@
     background-color: pink;
   }
 }
-@media (min-width: 758px) and (max-width: 1349px) {
-  .section_wrap {
-    background-color: plum;
-  }
-}
 @media (max-width: 1350px) {
   .section_inner .main_slide_wrap {
     width: 85%;
