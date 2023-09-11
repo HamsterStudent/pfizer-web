@@ -852,6 +852,18 @@ h2#notice_title_bar {
   font: normal 16px/19px "Noto Sans KR";
 }
 
+.notice_wrap {
+  width: 1200px;
+  height: 750px;
+  position: relative;
+}
+
+.notice_contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #notice_news_wrap {
   width: 591px;
   height: 203px;
